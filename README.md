@@ -15,6 +15,8 @@ any linux version and bash
 4. `./punctuation_cn_to_en.sh relative_path`
 5. `./punctuation_cn_to_en.sh file_name`
 6. change `punctuation_en_arr[1]="."` to `punctuation_en_arr[1]=".\ "` if you want space
+7. add `file_type_arr[n]='file_type'` if you want more filetype support.
+7. add `punctuation_zh_arr[n]='new_chinese_punc'` and `punctuation_en_arr[n]="new_english_punc"` if you want more punctuation support.
 
 #### Screenshot
 ------------------
