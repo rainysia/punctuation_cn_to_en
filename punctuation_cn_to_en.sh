@@ -49,6 +49,8 @@ punctuation_zh_arr[23]='－'
 punctuation_zh_arr[24]='～'
 punctuation_zh_arr[25]='＿'
 punctuation_zh_arr[26]='…'
+punctuation_zh_arr[27]='—'
+punctuation_zh_arr[28]='﹏'
 
 punctuation_en_arr[1]="."
 punctuation_en_arr[2]="?"
@@ -76,6 +78,9 @@ punctuation_en_arr[23]='-'
 punctuation_en_arr[24]='~'
 punctuation_en_arr[25]='_'
 punctuation_en_arr[26]='...'
+punctuation_en_arr[27]='-'
+punctuation_en_arr[28]='_'
+
 
 replace_punctuation() {
     if [ ! -f $line ]; then
