@@ -15,6 +15,12 @@ any linux version and bash
 4. `./punctuation_cn_to_en.sh relative_path`
 5. `./punctuation_cn_to_en.sh file_name`
 
+#### Screenshot
+------------------
+`./punctuation_cn_to_en.sh ./test.md`
+
+![punc](https://cloud.githubusercontent.com/assets/1259324/15665993/dc4cc724-2740-11e6-9043-8e7ad7fb7879.png)
+
 
 #### Contact
 ---------------------------------
