@@ -14,6 +14,7 @@ any linux version and bash
 3. `./punctuation_cn_to_en.sh absolute_path`
 4. `./punctuation_cn_to_en.sh relative_path`
 5. `./punctuation_cn_to_en.sh file_name`
+6. change `punctuation_en_arr[1]="."` to `punctuation_en_arr[1]=".\ "` if you want space
 
 #### Screenshot
 ------------------
