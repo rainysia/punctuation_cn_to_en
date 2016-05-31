@@ -17,7 +17,7 @@ else
 fi
 #echo $current_path
 
-declare -A punctuation_zh_arr punctuation_en_arr file_type_arr
+declare punctuation_zh_arr punctuation_en_arr file_type_arr
 
 file_type_arr[1]='txt'
 file_type_arr[2]='md'
