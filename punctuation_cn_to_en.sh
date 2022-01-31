@@ -51,7 +51,7 @@ punctuation_zh_arr[25]='＿'
 punctuation_zh_arr[26]='…'
 punctuation_zh_arr[27]='—'
 punctuation_zh_arr[28]='﹏'
-punctuation_zh_arr[29]='–'
+punctuation_zh_arr[0]='–'
 
 punctuation_en_arr[1]="."
 punctuation_en_arr[2]="?"
@@ -81,7 +81,7 @@ punctuation_en_arr[25]='_'
 punctuation_en_arr[26]='...'
 punctuation_en_arr[27]='-'
 punctuation_en_arr[28]='_'
-punctuation_en_arr[29]='--'
+punctuation_en_arr[0]='--'
 
 
 replace_punctuation() {
@@ -91,7 +91,7 @@ replace_punctuation() {
         if [ "$(uname)" == "Darwin" ]; then
             for i in "${!punctuation_zh_arr[@]}"
             do
-                sed -i '' "s/${punctuation_zh_arr[$i]}/${punctuation_en_arr[$i]}/g" $line
+                sed -i'' "s/${punctuation_zh_arr[$i]}/${punctuation_en_arr[$i]}/g" $line
             done
         elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
             for i in "${!punctuation_zh_arr[@]}"
